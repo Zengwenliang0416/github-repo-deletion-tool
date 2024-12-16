@@ -1,0 +1,16 @@
+# 临时文件
+*.tmp
+repos_data.json
+all_repos.txt
+repos_to_delete.txt
+process_repos.ps1
+show_selected.ps1
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# IDE配置文件
+.idea/
+.vscode/
+*.sublime-*

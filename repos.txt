@@ -1,0 +1,5 @@
+# 在下面列出要删除的仓库（移除#号和空格后填写）
+# 格式：用户名/仓库名
+# 示例：
+# octocat/Hello-World
+# username/repo-name
