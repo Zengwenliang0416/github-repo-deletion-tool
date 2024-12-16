@@ -82,6 +82,29 @@ chmod +x delete_repos.sh
 
 4. 输入 'y' 确认删除操作
 
+## 常见问题
+
+### 网络连接问题
+
+如果你在使用脚本时遇到网络连接问题（比如 "unable to access" 或 "Error in the HTTP2 framing layer"），可能需要配置代理：
+
+1. 设置 HTTP 代理：
+```bash
+# 如果你使用代理软件（如 Clash），端口可能是 7890
+git config --global http.proxy http://127.0.0.1:7890
+```
+
+2. 如果需要，也可以设置 HTTPS 代理：
+```bash
+git config --global https.proxy http://127.0.0.1:7890
+```
+
+3. 如果想要取消代理设置：
+```bash
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+```
+
 ## 注意事项
 
 - 删除操作是不可逆的，请确保要删除的仓库选择正确
