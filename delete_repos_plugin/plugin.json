@@ -5,7 +5,28 @@
 		{
       "code": "delete-repos",
       "explain": "批量删除 GitHub 仓库",
-      "cmds": ["delete repos", "删除仓库", "批量删除"]
+      "cmds": [
+        "delete repos",
+        "删除仓库",
+        "批量删除",
+        "gitdelete",
+        "gitrepos",
+        "remove repos",
+        "remove repositories",
+        "delete repositories",
+        "批量删除仓库",
+        "删除github仓库",
+        "github删除",
+        "清理仓库",
+        "清理github",
+        "bulk delete",
+        "bulk remove",
+        "cleanup repos",
+        "cleanup repositories",
+        "git cleanup",
+        "repository deletion",
+        "repos deletion"
+      ]
     }
 	]
 }
