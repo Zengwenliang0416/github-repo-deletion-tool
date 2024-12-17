@@ -1,0 +1,11 @@
+{
+	"main": "index.html",
+	"logo": "logo.png",
+	"features": [
+		{
+      "code": "delete-repos",
+      "explain": "批量删除 GitHub 仓库",
+      "cmds": ["delete repos", "删除仓库", "批量删除"]
+    }
+	]
+}
